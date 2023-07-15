@@ -14,7 +14,6 @@ h2 {
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -51,4 +50,39 @@ h2 {
     padding: 10px;
     margin: 30px 0;
     text-transform: uppercase;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    h2 {
+        padding: 5%;
+        margin: 5%;
+        font-size: 1rem;
+    }
+    
+    .container {
+       flex-direction: column;
+    }
+    
+    .img-container {
+        padding: 5%;
+        margin: 5%;
+    }
+    
+    .img-container img {
+        width: 100%;
+    }
+    
+    .details {
+        padding: 5%;
+        margin: 5%;
+    }
+    
+    .details h1 {
+        font-size: 40px;
+    }
+    
+    .details p {
+        font-size: 15px;
+    }
 }
