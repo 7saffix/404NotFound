@@ -86,3 +86,37 @@ h2 {
         font-size: 15px;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:1150px){
+    h2 {
+        padding-left: 5%;
+        padding-top: 2%;
+        margin-top: 3%;
+        font-size: 1.5rem;
+    }
+    .container{
+        align-items: flex-start;
+    }
+    .img-container {
+        padding: 2%;
+        margin: 3%;
+        width: 50%;
+    }
+    
+    .img-container img {
+        width:100%;
+    }
+    
+    .details {
+        padding: 2%;
+        margin: 3%;
+    }
+    
+    .details h1 {
+        font-size: 30px;
+    }
+    
+    .details p {
+        font-size: 15px;
+    }
+}
